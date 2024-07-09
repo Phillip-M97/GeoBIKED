@@ -15,7 +15,7 @@ This code is published under teh MIT license. Feel free to use all portions for 
 The code for automatic annotation of geometric correspondences (Point Annotation) is based on the paper [Diffusion Hyperfeatures: Searching Through Time and Space for Semantic Correspondence](https://arxiv.org/abs/2305.14334) Please also refer to the provided [repository](https://github.com/diffusion-hyperfeatures/diffusion_hyperfeatures) by the authors.
 
 ## Downloading the Data
-Due to file size constraints, download the data from Google Drive (LINK).
+Due to file size constraints, download the data from [Google Drive](https://drive.google.com/drive/folders/1s2gILDboW2S66XxS2TtkOdsEYOMqe1TH?usp=sharing)
 To work with it, download and unzip the data and then select the required folders.
 
 ## Description of the Dataset
@@ -32,6 +32,7 @@ The geometric features are essentially a low-dimensional structured point-cloud,
 ### Features
 **Bike Styles** contains strings describing the style of the bicycles. We provide 19 different styles.
 ![Style_Dist](https://github.com/Phillip-M97/GeoBIKED/assets/86968936/247eb70c-81b0-4f25-8c32-fb0e8ed3441e)
+
 We also provide information about the **RIM Style** of each bike as well as the **Fork Type**.
 **Tube Sizes**,**Frame Sizes** and the number of teeth on the **Chainring** are associated technical features.
 ![Tube_and_Fork](https://github.com/Phillip-M97/GeoBIKED/assets/86968936/830f5b70-1cfa-4919-a8b0-fdc7231424f0)
