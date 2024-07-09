@@ -23,6 +23,11 @@ To work with it, download and unzip the data and then select the required folder
 ### Geometrical Data
 The subsequent columns contain the geometrical annotations. **We provide the data in millimeters**. Columns two and three (*x_zero* and *y_zero*) describe the center of the local coordinate system of each bike within the image. We chose the rear-wheel-center as the center of the local coordinate system. All other points are relative to this local coordinate system.
 Keep in mind that the data needs to be scaled according to the image resolution to draw geometric correspondences. The scaling factors are:
-- (256 x 2561) --> 1 px = 10,19mm
+- (256 x 256) --> 1 px = 10,19mm
 - (2048 x 2048) --> 1 px = 1,27mm
+
+### Features
+**Bike Styles** contains strings describing the style of the bicycles. We provide 19 different styles.
+![Uploading image.png…]()
+
 
