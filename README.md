@@ -26,8 +26,13 @@ Keep in mind that the data needs to be scaled according to the image resolution 
 - (256 x 256) --> 1 px = 10,19mm
 - (2048 x 2048) --> 1 px = 1,27mm
 
+The geometric features are essentially a low-dimensional structured point-cloud, describing the geometrical layout of each bicycle through the position of characteristic intersections and geometric points.
+![geo_points](https://github.com/Phillip-M97/GeoBIKED/assets/86968936/b6692fcd-45f7-4780-8c54-c15588428ed7)
+
 ### Features
 **Bike Styles** contains strings describing the style of the bicycles. We provide 19 different styles.
 ![Style_Dist](https://github.com/Phillip-M97/GeoBIKED/assets/86968936/247eb70c-81b0-4f25-8c32-fb0e8ed3441e)
-
+We also provide information about the **RIM Style** of each bike as well as the **Fork Type**.
+**Tube Sizes**,**Frame Sizes** and the number of teeth on the **Chainring** are associated technical features.
+![Tube_and_Fork](https://github.com/Phillip-M97/GeoBIKED/assets/86968936/830f5b70-1cfa-4919-a8b0-fdc7231424f0)
 
