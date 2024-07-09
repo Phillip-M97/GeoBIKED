@@ -28,6 +28,6 @@ Keep in mind that the data needs to be scaled according to the image resolution 
 
 ### Features
 **Bike Styles** contains strings describing the style of the bicycles. We provide 19 different styles.
-![Uploading image.png…]()
+![Style_Dist](https://github.com/Phillip-M97/GeoBIKED/assets/86968936/247eb70c-81b0-4f25-8c32-fb0e8ed3441e)
 
 
