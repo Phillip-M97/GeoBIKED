@@ -29,7 +29,7 @@ We also provide information about the **RIM Style** of each bike as well as the 
 
 # Detecting Geometric Correspondences with Diffusion Hyperfeatures
 This information corresponds to the task of automatic dataset annotation with geometric reference points by passing the model a handful of manually annotated examples.
-The relevant code is in the folder *Point_Detection_Hyperfeatures*.
+The relevant code is in the folder [*Point_Detection_Hyperfeatures*](https://github.com/Phillip-M97/GeoBIKED/tree/main/Point_Detection_Hyperfeatures).
 
 The code for automatic annotation of geometric correspondences (Point Annotation) is based on the paper [Diffusion Hyperfeatures: Searching Through Time and Space for Semantic Correspondence](https://arxiv.org/abs/2305.14334) Please also refer to the provided [repository](https://github.com/diffusion-hyperfeatures/diffusion_hyperfeatures) by the authors. 
 In case of troubles with packages and dependencies, we advise to refer to the original repository provided by Luo et al.
@@ -37,15 +37,12 @@ In case of troubles with packages and dependencies, we advise to refer to the or
 ## Test Data
 The benchmark dataset discussed in the paper is a derived subset from our provided GeoBiked Dataset. It can also be found in the [Drive](https://drive.google.com/drive/folders/1s2gILDboW2S66XxS2TtkOdsEYOMqe1TH?usp=sharing). To use this, or any other dataset, simply download it and place it within the "assets" folder.
 
-# Annotation with Text Descriptions
+# Generation of Text Descriptions with GPT-4o
 This corresponds to the section in the paper that discusses the processing of the GeoBiked dataset with pretrained Vision-Language Models to automatically annotate it with creative and controllable text descriptions.
+We provide the utilized system-prompt as well as the generated text-descriptions and our script for evaluating the generated descriptions under [Text_Generation_with_GPT4o](https://github.com/Phillip-M97/GeoBIKED/tree/main/Text_Generation_with_GPT4o).
 
-## Vision-Language Models
+## Vision-Language Model
 We evaluate GPT-4o as our Vision-Language Model.
-
-## System Prompts
-The system prompts that we used to generate the text descriptions with the different models are provided in the corresponding folder *Text_Annotations_with_VLMs*.
-We provide the entire system prompt for each evaluated model as well as some exemplary text descriptions. The descriptions can be matched with the corresponding images by their indices.
 
 ## License
 This repository is published under the Creative Commons Attribution-NonCommercial 4.0 International License. For further information, please refer to https://creativecommons.org/licenses/by-nc/4.0/.
