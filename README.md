@@ -1,8 +1,3 @@
-# GeoBIKED
-This dataset and code are presented in the paper GeoBIKED: A Dataset with Geometric Features and Automated Labeling Techniques to Enable Deep Generative Models in Engineering Design.
-
-This work was presented at the Modeling, Data Analytics and AI in Engineering Conference (MadeAI), held in Porto, Portugal in July 2024 https://madeai-eng.org/
-
 ## Downloading the Data
 Due to file size constraints, download the data from [Google Drive](https://drive.google.com/drive/folders/1s2gILDboW2S66XxS2TtkOdsEYOMqe1TH?usp=sharing).
 To work with it, download and unzip the data and then select the required folders.
@@ -47,15 +42,3 @@ We evaluate GPT-4o as our Vision-Language Model.
 
 ## License
 This repository is published under the Creative Commons Attribution-NonCommercial 4.0 International License. For further information, please refer to https://creativecommons.org/licenses/by-nc/4.0/.
-
-## Citation
-If you find our work helpful, please cite it in the following manner:
-```bibtex
-@misc{muellerGeoBiked2024,
-  title = {GeoBiked: A Dataset with Geometric Features and Automated Labeling Techniques to Enable Deep Generative Models in Engineering Design.},
-  author = {Mueller, Phillip and Mueller, Sebastian and Mikelsons, Lars},
-  year = {2024},
-  publisher = {GitHub},
-  url = "https://github.com/Phillip-M97/GeoBIKED"
-}
-
