@@ -49,6 +49,7 @@ This repository is published under the Creative Commons Attribution-NonCommercia
 
 ## Citation
 If you find our work helpful, please cite it in the following manner:
+```bibtex
 @misc{muellerGeoBiked2024,
   title = {GeoBiked: A Dataset with Geometric Features and Automated Labeling Techniques to Enable Deep Generative Models in Engineering Design.},
   author = {Mueller, Phillip and Mueller, Sebastian and Mikelsons, Lars},
