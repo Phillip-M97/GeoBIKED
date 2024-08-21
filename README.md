@@ -24,6 +24,7 @@ The geometric features are essentially a low-dimensional structured point-cloud,
 
 We also provide information about the **RIM Style** of each bike as well as the **Fork Type**.
 **Tube Sizes**,**Frame Sizes** and the number of teeth on the **Chainring** are associated technical features.
+
 ![Tube_and_Fork](https://github.com/Phillip-M97/GeoBIKED/assets/86968936/830f5b70-1cfa-4919-a8b0-fdc7231424f0)
 
 
